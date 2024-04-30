@@ -1,0 +1,16 @@
+.page {
+    text-align: center;
+    margin-top: 20px;
+    background: rgb(84, 119, 119);
+}
+  
+.greeting {
+    font-size: 50px;
+    color: #200000;
+}
+  
+.date{
+    font-size: 40px;
+    color: #a70a0a;
+    background: #200000;
+}

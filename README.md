@@ -38,13 +38,10 @@ The project structure is as follows:
 
 ```
 .
-├── components
-│   └── Welcome.tsx
 ├── pages
-│   └── index.tsx
+│   └── Welcome.tsx
+│   └── Welcome.module.css
 ├── public
-├── styles
-│   └── Home.module.css
 ├── .gitignore
 ├── next-env.d.ts
 ├── next.config.js
@@ -54,7 +51,6 @@ The project structure is as follows:
 └── yarn.lock
 ```
 
-- `components/`: Contains React components used in the application.
 - `pages/`: Contains Next.js pages and the css styling file
 - `public/`: Contains static assets.
 - `.gitignore`: Specifies intentionally untracked files to ignore.
@@ -68,10 +64,6 @@ The project structure is as follows:
 ## Contributing
 
 Contributions are welcome, Feel free to open an issue or submit a pull request if you find any bugs or have suggestions for improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
